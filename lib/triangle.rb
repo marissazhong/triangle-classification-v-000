@@ -15,7 +15,7 @@ class Triangle
     else
       if @length1 == @length2 && @length2 == @length3
         type = :equilateral
-      elsif @length1 == @length2 || @length2 == @length3
+      elsif @length1 == @length2 || @length2 == @length3 || @length1 == @length3
         type = :isosceles
       else
         type = :scalene
