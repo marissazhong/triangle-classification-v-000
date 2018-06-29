@@ -5,4 +5,8 @@ class Triangle
     lengths.each {|key, value| self.send(("#{key}="), value)}
   end
 
+  class TriangleError < StandardError
+
+  end
+
 end
